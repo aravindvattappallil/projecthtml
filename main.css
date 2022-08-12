@@ -226,6 +226,76 @@ legend{
 #contact{
     height: 100vh;
 }
+#contact h2{
+    margin-top: 90px;
+    margin-left: 10%;
+    font-size: large;
+    
+}
+#head{
+    color: #D1D606;
+    margin-left: 60px;
+    font-size: x-large;
+    
+
+}
+#contact h1{
+    margin-left: 20%;
+    margin-top: -20px;
+    color: #D1D606;
+}
+.f1{
+    margin-left: 10%;
+    margin-top: 150px;
+    
+}
+.f2{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.bold{
+    margin-left: 8%;
+}
+
+input[type=text], select {
+    width: 80%;
+    background-color: #7dabd63a;
+    padding: 8px 2px;
+    margin: 8px 30px;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+}
+
+input[type=submit] {
+    width: 140px;
+    margin-left: 36%;
+    margin-top: 20px;
+    background-color:#D1D606;
+    color: black;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15%;
+    margin-top: 5%;
+  }
+
+#insta{
+    width: 15px;
+}
+#discord{
+    width: 15px;
+    margin: 0 20%;
+}
+#telegram{
+    width: 15px;
+}
+#social{
+    justify-content: space-around;
+    margin-left: 32%;
+    margin-top: 80px;
+}
 
 /* responsive 580px  */
 @media screen and (min-width:580px){
@@ -261,7 +331,49 @@ legend{
 #image3{
     margin-left: 10%;
 }
+
+/* contact */
+input[type=text], select {
+    width: 30%;
 }
+.f1{
+    margin-left: 40%;
+    margin-top: 180px;  
+}
+.f2{
+    margin-left: 40%;
+    margin-top: 10px;
+}
+input[type=submit] {
+    margin-left: 47%;
+    margin-top: 30px;
+}
+#social{
+    justify-content: space-around;
+    margin-left: 39%;
+    margin-top: 0px;
+}
+#insta{
+    width: 28px;
+}
+#discord{
+    width: 28px;
+    padding-left: 15%;
+    padding-right: 15%;
+   
+}
+#telegram{
+    width: 28px;
+}
+.bold{
+    margin-left: 2.8%;
+}
+
+}
+
+
+
+
 
 
 
