@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+    
+}
+.container{
+    padding: 10%;
+}
+body{
+    background-image: url(./images/mfullbg.png);
+    background-size: cover;
+}
+
+/* -------------Home page-------------- */
+/* #home{
+    width: 100%;
+    height: 100vh;
+} */
+.homecontainer{
+   background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+/* hamburger */
+.hamburger{
+    width: 50px;
+    height: 10px;
+    background-color: blue;
+}
+#heading{
+
+font-style: bolder;
+font-weight: 900;
+font-size: 15px;
+line-height: 25px;
+word-spacing: 10px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 2%;
+position: relative;
+}
+.mid-section{
+    position: relative;
+    padding-top: 20px;
+}
+
+.bar{
+    width: 150%;
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D1D606;
+    color: black;
+    position: absolute;
+    left: -20%;
+    top: 150px;
+    transform: matrix(0.97, -0.28, 0.25, 0.96, 0, 0);
+    align-items: center; 
+}
+.bar p{
+    font-size: 12px;
+    font-weight: 800;
+    color: black;
+}
+.home-ape{
+    
+    display: flex;
+    position: relative;
+    justify-content: space-between; 
+   
+    
+}
+.ape-home-img1 img,.ape-home-img2 img{
+    width: 120px;
+    height: 135px;
+
+}
+.ape-home-img1 img{
+    transform: rotate(-12.49deg);
+    margin-top: 50px;
+    
+}
+.ape-home-img2 img{
+    transform: rotate(5deg);
+    margin-left: 60px;
+    
+    
+}
+.into{
+    position: relative;
+    margin-top: 20%;
+    color: white;
+    
+}
+.tag h4{
+    font-size: 11px;
+}
+.tag h1{
+    font-size: 24;
+}
+.into-para p{
+    font-weight: 5;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.homebutton{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+#explore,#buynft{
+    margin: 20px;
+    padding: 10px 5px;
+    letter-spacing: .2rem;
+    flex: 1;
+    background-color: transparent;
+    cursor:pointer;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid #7DABD6;  
+    
+}
+#explore:hover,#buynft:hover{
+    background-color: #D1D606;
+    color: black;
+}
+.trade{
+    
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.trade h2{
+    text-align: center;
+    letter-spacing: .3rem;
+}
+fieldset{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(-5deg);
+    border-radius: 25px;
+    border: 2px solid #7DABD654;
+    background-image: url(/images/tradebg.png);
+    background-size: cover;
+    
+
+}
+legend{
+    background-color: #7DABD6;
+    letter-spacing: .2rem;
+    padding: 2px 25px;
+    font-size: 12px;
+    text-align: center;
+    transform: rotate(5deg);
+    border-radius: 25px;
+    font-weight: bold;
+}
+/* gallery */
+
+#gallery{
+    
+    position: relative;
+}
+.mainrow{
+    margin-top: 10%;
+}
+.row1,.row2,.row3{
+    display: flex;
+    margin:10%;
+    margin-left: 2%;
+}
+#image2,#image4,#eth{
+    margin-top: 10%;
+}
+#image3{
+    margin-left: 15%;
+}
+#image5{
+    margin-left: 10%;
+    
+}
+#gallery img{
+    width: 140px;
+    height: 160px;
+}
+
+ #eth{
+    margin-top: 5%;
+ }
+
+ #eth_img {
+   display: flex;
+   margin-left: 20px;
+ }
+#eth_img h3{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #D1D606;
+}
+#eth p{
+    margin-left: 80px;
+    font-size: 12px;
+}
+#eth_img img{
+    width: 20px;
+    height: 30px;
+}
+#token{
+    margin-top: 20px;
+}
+#token p{
+    margin-left: 50px;
+}
+#token h3{
+    margin-left: 70px;
+    color: #D1D606;
+}
+
+/* -------------Buy NFT----------*/
+#buynftcontainer{
+    height: 100vh;
+}
+/* -------------contact----------*/
+#contact{
+    height: 100vh;
+}
+
+/* responsive 580px  */
+@media screen and (min-width:580px){
+    .mainrow {
+      
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+    .row1,.row2,.row3{
+        margin-top: 2%;
+    }
+}
+
+/* responsive 900px  */
+@media screen and (min-width:900px){
+#gallery{
+    padding-top: 10%;
+}
+    .container{
+    padding: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.mainrow {
+    margin-top: -15%;
+    margin-left: 20%;
+}
+.row1,.row2,.row3{
+    
+    margin: 2%;
+}
+#image3{
+    margin-left: 10%;
+}
+}
+
+
+
+/* responsive 1200px  */
+@media screen and (min-width:900px){
+    .container{
+        padding: 20%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .mainrow {
+        margin-top: -10%;
+    }
+    
+   
+    .row1,.row2,.row3{
+        
+        margin: 1%;
+    }
+    #gallery img{
+        width: 160px;
+        height: 180px;
+    }
+    #eth_img img{
+        width: 20px;
+        height: 30px;
+    }
+    #image3{
+        margin-left: 7%;
+    }
+    #image2,#image4,#eth{
+        margin-left: 5%;
+    }
+    
+}
