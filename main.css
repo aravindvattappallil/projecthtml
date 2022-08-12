@@ -55,6 +55,9 @@ position: relative;
     position: relative;
     padding-top: 20px;
 }
+.apeweb{
+    display: none;
+}
 
 .bar{
     width: 150%;
@@ -245,12 +248,12 @@ legend{
     color: #D1D606;
 }
 .f1{
-    margin-left: 10%;
+    
     margin-top: 150px;
     
 }
 .f2{
-    margin-left: 10%;
+    
     margin-top: 10px;
 }
 .bold{
@@ -269,7 +272,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 140px;
-    margin-left: 36%;
+    margin-left: 25%;
     margin-top: 20px;
     background-color:#D1D606;
     color: black;
@@ -293,7 +296,7 @@ input[type=submit] {
 }
 #social{
     justify-content: space-around;
-    margin-left: 32%;
+    margin-left: 25%;
     margin-top: 80px;
 }
 
@@ -314,6 +317,7 @@ input[type=submit] {
 #gallery{
     padding-top: 10%;
 }
+
     .container{
     padding: 15%;
     padding-top: 2%;
@@ -334,14 +338,14 @@ input[type=submit] {
 
 /* contact */
 input[type=text], select {
-    width: 30%;
+    width: 50%;
 }
 .f1{
-    margin-left: 40%;
+   
     margin-top: 180px;  
 }
 .f2{
-    margin-left: 40%;
+   
     margin-top: 10px;
 }
 input[type=submit] {
@@ -358,8 +362,7 @@ input[type=submit] {
 }
 #discord{
     width: 28px;
-    padding-left: 15%;
-    padding-right: 15%;
+    margin: 0 15%;
    
 }
 #telegram{
@@ -367,6 +370,9 @@ input[type=submit] {
 }
 .bold{
     margin-left: 2.8%;
+}
+.contactcontainer{
+    margin-left: 37%;
 }
 
 }
