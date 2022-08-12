@@ -74,33 +74,12 @@ position: relative;
     font-weight: 800;
     color: black;
 }
-.home-ape{
-    
-    display: flex;
-    position: relative;
-    justify-content: space-between; 
-   
-    
-}
-.ape-home-img1 img,.ape-home-img2 img{
-    width: 120px;
-    height: 135px;
-
-}
-.ape-home-img1 img{
-    transform: rotate(-12.49deg);
-    margin-top: 50px;
-    
-}
-.ape-home-img2 img{
-    transform: rotate(5deg);
-    margin-left: 60px;
-    
+.ape-home-img  img{
+    width: 100%;   
     
 }
 .into{
     position: relative;
-    margin-top: 20%;
     color: white;
     
 }
