@@ -43,6 +43,9 @@ li a{
     text-decoration: none;
     margin-right: 20px;
 }
+li a:hover{
+    color:#D1D606;
+}
 .left li a{
     margin: 0 1%;
 }
