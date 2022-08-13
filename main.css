@@ -16,10 +16,7 @@ body{
 }
 
 /* -------------Home page-------------- */
-/* #home{
-    width: 100%;
-    height: 100vh;
-} */
+
 
 .homecontainer{
    background-size: cover;
@@ -28,25 +25,28 @@ body{
     
     
 }
-/* nav */
-/* nav{
+
+nav{
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
-} */
-/* hamburger */
-/* .hamburger{
-    width: 50px;
-    height: 10px;
-    background-color: blue;
-} */
+}
+.logo{
+    margin-right: 20px;
+}
+ul{
+    list-style-type: none;
+    display: flex; 
+    font-size: 12px;
+}
+li a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.left li a{
+    margin: 0 1%;
+}
 
-
-
-
-
-
-/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 #heading{
 
 font-style: bolder;
@@ -67,24 +67,7 @@ position: relative;
     display: none;
 }
 
-.bar{
-    width: 150%;
-    height: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #D1D606;
-    color: black;
-    position: absolute;
-    left: -20%;
-    top: 150px;
-    transform: matrix(0.97, -0.28, 0.25, 0.96, 0, 0);
-    align-items: center; 
-}
-.bar p{
-    font-size: 12px;
-    font-weight: 800;
-    color: black;
-}
+
 .ape-home-img  img{
     width: 100%;   
     
@@ -92,6 +75,7 @@ position: relative;
 .into{
     position: relative;
     color: white;
+    margin-top: -10%;
     
 }
 .tag h4{
@@ -99,11 +83,13 @@ position: relative;
 }
 .tag h1{
     font-size: 24;
+    -webkit-text-stroke: .5px white;
+    color: transparent;
 }
 .into-para p{
     font-weight: 5;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .homebutton{
@@ -113,21 +99,8 @@ position: relative;
     margin: 10px;
 
 }
-#explore,#buynft{
-    margin: 20px;
-    padding: 10px 5px;
-    letter-spacing: .2rem;
-    flex: 1;
-    background-color: transparent;
-    cursor:pointer;
-    overflow: hidden;
-    border-radius: 15px;
-    border: 2px solid #7DABD6;  
-    
-}
-#explore:hover,#buynft:hover{
-    background-color: #D1D606;
-    color: black;
+.homebutton{
+    margin-top: 10%;
 }
 .trade{
     
@@ -230,9 +203,126 @@ legend{
 }
 
 /* -------------Buy NFT----------*/
-#buynftcontainer{
+a {
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 30px;
+  }
+  #buy_nft {
+    background-size: cover;
+    width: 100%;
     height: 100vh;
-}
+    overflow: hidden;
+  }
+  
+  .imgwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    margin-top: 129px;
+  }
+ 
+  /* arrow section */
+  
+  .arrowWrapper {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    margin: 2200px 70px 0px;
+  }
+  
+  .tagWrapper {
+    text-align: center;
+  }
+  .tagWrapper .hash_tag h2 {
+    color: #d1d606;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 90.4%;
+  }
+  .tagWrapper .hash_tag h4 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 90.4%;
+  }
+  .tagWrapper .price_tag h3 {
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 106.4%;
+  }
+  .tagWrapper .price_tag h2 {
+    color: #ffffff;
+    margin-bottom: 43px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 69.9%;
+  }
+  .tagWrapper .price_tag h2 span {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 9.09px;
+  }
+  
+  /* button section */
+  
+  .button_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button_section .cta-btn1 {
+    margin-right: 20px;
+  }
+  .left-logo #head{
+    margin-left: 0px;
+    font-size: 35px;
+
+  }
+  .buylogo{
+    margin-left: 20px;
+  }
+  
+  .button_section .cta-btn1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 111.85px;
+    height: 46.6px;
+    border: 1px solid #7dabd6;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 99.9%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .button_section .cta-btn2 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d1d606;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    width: 110.52px;
+    height: 46.6px;
+    border: 1px solid #7dabd6;
+    border-radius: 12px;
+    color: #000000;
+  }
 /* -------------contact----------*/
 #contact{
     height: 100vh;
@@ -308,6 +398,9 @@ input[type=submit] {
     margin-top: 80px;
 }
 
+
+  
+
 /* responsive 580px  */
 @media screen and (min-width:580px){
     .mainrow {
@@ -317,6 +410,27 @@ input[type=submit] {
     }
     .row1,.row2,.row3{
         margin-top: 2%;
+    }
+    li a{
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    .home-apewrap{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .bold {
+        margin-left: 25%;
+    }
+    input[type=text], select {
+        width: 50%;
+        margin: 8px 25%;
+      
+    }
+    input[type=submit] {
+        
+        margin-left: 35%;
     }
 }
 
@@ -332,6 +446,9 @@ input[type=submit] {
         word-spacing: 20px;
        
         }
+     
+       
+       
 
 
 #gallery{
@@ -394,13 +511,14 @@ input[type=submit] {
 .contactcontainer{
     margin-left: 37%;
 }
-
+input[type=text], select {
+    width: 100%;
+    margin-left: -10%;
 }
-
-
-
-
-
+.bold {
+    margin-left: -10%;
+}
+}
 
 
 /* responsive 1200px  */
@@ -411,14 +529,23 @@ input[type=submit] {
         padding-bottom: 4%;
     }
     .home-apewrap{
-        width: 70%;
-        margin-left: 15%;
+        width: 50%;
+        margin-left: 25%;
     }
 
     .mainrow {
         margin-top: -10%;
     }
     
+    li a {
+
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    input[type=text], select {
+        width: 80%;
+       
+    }
    
     .row1,.row2,.row3{
         
@@ -438,5 +565,5 @@ input[type=submit] {
     #image2,#image4,#eth{
         margin-left: 5%;
     }
-    
+   
 }
