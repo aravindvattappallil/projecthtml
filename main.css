@@ -570,3 +570,10 @@ input[type=text], select {
     }
    
 }
+
+@media screen and (min-width:1700px){
+    imgwrapper {
+        
+        margin-top: 15px;
+    }
+}
